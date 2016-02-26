@@ -1,0 +1,11 @@
+<h1>Events</h1>
+<% events.forEach(function (event) { %>
+<div class="event">
+	<h2>Event <%= event.id %></h2>
+	<p><strong>name:</strong> <%= event.name %></p>
+	<p><strong>location:</strong> <%= event.location %></p>
+	<p><strong>description:</strong> <%= event.description %></p>
+	<p><strong>starts_at:</strong> <%= event.starts_at %></p>
+	<p><strong>ends_at:</strong> <%= event.ends_at %></p>
+</div>
+<% }); %>

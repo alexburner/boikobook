@@ -1,0 +1,11 @@
+[data-template] {
+	padding: 12px;
+	margin: 24px;
+	border: 1px solid #555;
+}
+
+[data-widget] {
+	padding: 6px;
+	margin: 12px;
+	border: 1px solid #999;
+}
